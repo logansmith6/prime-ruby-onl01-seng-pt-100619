@@ -6,13 +6,13 @@ def prime?(num)
   end
 
   pr = 2
-  div = num / pr 
+  div = num / pr
   while pr < div do
     if num % pr == 0
       return false
     end
     pr += 1
-    div = num / pr 
+    div = num / pr
   end
 return true
 
